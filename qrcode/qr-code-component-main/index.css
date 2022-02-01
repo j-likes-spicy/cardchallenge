@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  text-align: justify;
+  background: #d5e1ef;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+h2 {
+  margin: 1.5rem 0.25rem;
+  word-wrap: normal;
+}
+
+p {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-body {
+  background: hsl(0, 0%, 100%);
+
+  width: 320px;
+  height: 497px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  -webkit-box-shadow: 0px -1px 11px 4px rgba(176, 176, 176, 0.27);
+  box-shadow: 0px -1px 11px 4px rgba(176, 176, 176, 0.27);
+}
+
+.caption {
+  margin: 2rem 0.5rem;
+}
+
+.attribution {
+  text-align: center;
+  margin: 1.5rem;
+}
